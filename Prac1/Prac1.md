@@ -31,3 +31,7 @@
 <p> Para finalizar, hay que comentar un par de cosas sobre el organismo que regula la mayor parte de los asuntos del padrón municipal es el Instituto Nacional de Estadística que se encarga en mayor parte de: actualizaciones de sustitución de datos, la comunicación de datos, gestión de cambios en datos mensuales y por último las discrepancias detectadas en los datos recogidos. Otra función importante que realiza esta institución es la de facilitar vía telemática los datos a los organismos subsidiarios y proporcionar al estados las cifras oficiales de la población dentro de España. </p>
 
 <p> Una vez que se sabe la situación dentro del estado español en lo que se refiere al patrón municipal para la población, podríamos proceder con los siguientes pasos dentro de la realización de un proyecto en base de datos. </p>
+
+> Sergio Delgado López (alu0100893601@ull.edu.es)
+> Eduardo Pérez Hernández (alu0100991659@ull.edu.es)
+> Sergio Moreno Martín (alu0100710298@ull.edu.es)

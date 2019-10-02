@@ -33,5 +33,7 @@
 <p> Una vez que se sabe la situación dentro del estado español en lo que se refiere al patrón municipal para la población, podríamos proceder con los siguientes pasos dentro de la realización de un proyecto en base de datos. </p>
 
 > Sergio Delgado López (alu0100893601@ull.edu.es)
+
 > Eduardo Pérez Hernández (alu0100991659@ull.edu.es)
+
 > Sergio Moreno Martín (alu0100710298@ull.edu.es)

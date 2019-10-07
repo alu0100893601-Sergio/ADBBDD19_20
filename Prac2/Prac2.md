@@ -16,7 +16,7 @@
 10. `#\dt` para ver la tabla creada.  
     ![ver la tabla creada](images/captura2.PNG)
 11. `#\d` usuarios.  
-    ![ver el formato de la tabla](images/captura4.PNG)
+    ![ver el formato de la tabla](images/captura4.png)
 12. `#INSERT INTO usuarios (nombre,clave) VALUES ('Casillas','Portero');`
 13. `#INSERT INTO usuarios (nombre,clave) VALUES ('Ramos','Lateral');`
 14. `#INSERT INTO usuarios (nombre,clave) VALUES ('Pique','Central');`

@@ -6,6 +6,7 @@
 [Práctica 4](https://github.com/alu0100893601-Sergio/ADBBDD19_20/tree/master/Prac4)  
 [Práctica 5](https://github.com/alu0100893601-Sergio/ADBBDD19_20/tree/master/Prac5)  
 [Práctica 6](https://github.com/alu0100893601-Sergio/ADBBDD19_20/tree/master/Prac6)  
+[Práctica 7](https://github.com/alu0100893601-Sergio/ADBBDD19_20/tree/master/Prac7)  
 
 
 

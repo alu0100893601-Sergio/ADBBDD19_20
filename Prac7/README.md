@@ -2,9 +2,9 @@
 ## Modelo relacional de BBDD con uso de workbench y triggers.
 
 ### Modelo de empresa de Farmacia  
-Workbench -> [Archivo](https://github.com/alu0100893601-Sergio/ADBBDD19_20/tree/master/Prac6/Farmacia.mwb)  
-Script -> [Archivo](https://github.com/alu0100893601-Sergio/ADBBDD19_20/tree/master/Prac6/Farmacia.sql)  
-Trigger -> [Archivo](https://github.com/alu0100893601-Sergio/ADBBDD19_20/tree/master/Prac6/Trigers.sql)  
+Workbench -> [Archivo](https://github.com/alu0100893601-Sergio/ADBBDD19_20/tree/master/Prac7/Farmacia.mwb)  
+Script -> [Archivo](https://github.com/alu0100893601-Sergio/ADBBDD19_20/tree/master/Prac7/Farmacia.sql)  
+Trigger -> [Archivo](https://github.com/alu0100893601-Sergio/ADBBDD19_20/tree/master/Prac7/Trigers.sql)  
 
 ### Desarrollo
 Diseño realizado en MySQL Workbench:    

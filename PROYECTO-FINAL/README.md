@@ -21,21 +21,21 @@
 
 ### 3. Realización de modelos.
 
-#### 3.1. Modelo Entidad-Relación.
+### 3.1. Modelo Entidad-Relación.
 
-##### 3.1.1. Primera aproximación.
+### 3.1.1. Primera aproximación.
 
-##### 3.1.2. ER completo (diseño de la BD).
+### 3.1.2. ER completo (diseño de la BD).
 
-#### 3.2. Modelo Relacional.
+### 3.2. Modelo Relacional.
 
-#### 3.3. Modelo UML.
+### 3.3. Modelo UML.
 
 ### 4. Códigos SQL generados.
 
-#### 4.1. Mediante E/R.
+### 4.1. Mediante E/R.
 
-#### 4.2. Mediante diagrama UML (transformación a Objeto-Relacional).
+### 4.2. Mediante diagrama UML (transformación a Objeto-Relacional).
 
 ### 5. Creación de tablas dentro de PostgreSQL.
 

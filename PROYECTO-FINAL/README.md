@@ -15,7 +15,7 @@ Lorem ipsum
 
 ## 2. Definición de requisitos del sistema de base de datos.
 
-> Enlace al documento: [Documento de requisitos](https://github.com/alu0100893601-Sergio/ADBBDD19_20/tree/master/PROYECTO-FINAL/Documentos-finales/) 
+> Enlace al documento: [Documento de requisitos](https://drive.google.com/open?id=1j2uHcNPnuSnuFk_eSTUGj-u-4FdOw5j0) 
 
 La empresa Epopeya se dedica a la venta de libros de toda índole, desde los manuscritos más clásicos hasta lo último en vanguardia. Es una empresa con una gran trayectoria dentro del sector, y en los últimos tiempos se ha decidido informatizarse, para así poder dar un mejor servicio a sus clientes, así como para llevar una gestión más eficientes de sus librerías y recursos.  
 

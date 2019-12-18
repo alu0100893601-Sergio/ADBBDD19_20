@@ -74,4 +74,4 @@ El nivel de complejidad de un diagrama ER puede variar mucho, por ello se ha dec
 
 ## 8. Referencias.
 
-* [Documento de requisitos](/Documentos-finales/Requisitos de Librería Epopeya.pdf)
+* [Documento de requisitos](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Requisitos%20de%20Librer%C3%ADa%20Epopeya.pdf)

@@ -73,3 +73,5 @@ El nivel de complejidad de un diagrama ER puede variar mucho, por ello se ha dec
 ## 7. Triggers.
 
 ## 8. Referencias.
+
+* [Documento de requisitos](/Documentos-finales/Requisitos de Librería Epopeya.pdf)

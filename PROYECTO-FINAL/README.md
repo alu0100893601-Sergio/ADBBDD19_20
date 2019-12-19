@@ -54,7 +54,103 @@ El nivel de complejidad de un diagrama ER puede variar mucho, por ello se ha dec
 
 ![ER simple](Imagenes/ER1.png) 
 
-### 3.1.2. ER completo (diseño de la BD).
+### 3.1.2. ER extendido (diseño de la BD).
+
+> Enlace al documento: [Documento de ERE]()  
+
+IDENTIFICAIÓN Y DEFINICIÓN DE ENTIDADES  
+
+1. Librerías: Representa a cada una de las librerías de la cadena Epopeya.  
+
+| Atributo      | Tipo        |
+| :-----------: |:-----------:|
+| Identificador | Varchar(10) |
+| Localización  | Varchar(50) |
+| Nombre        | Varchar(30) |
+| Teléfono      | Varchar(12) |
+
+2. Libros: Es la entidad que representa a cada uno de los libros de los que se dispone.  
+
+|       Atributo       |      Tipo     |
+|:--------------------:|:-------------:|
+|         ISBN         |  Varchar(12)  |
+|        Título        |  Varchar(50)  |
+|        Precio        |     Float     |
+|        Género        |  Varchar(20)  |
+| Fecha de lanzamiento |      Date     |
+|         Autor        | Varchar(100)  |
+|         Stock        |      Int      |
+|        Edición       |      Int      |
+
+3. Clientes registrados: Representa a los clientes registrados a las librerías.  
+
+|          Atributo          |     Tipo     |
+|:--------------------------:|:------------:|
+|             DNI            |  Varchar(9)  |
+|       Nombre comlpeto      | Varchar(100) |
+|           *Nombre          |  Varchar(30) |
+|         *Apellidos         |  Varchar(30) |
+|            Email           |  Varchar(30) |
+|     Fecha de nacimiento    |     Date     |
+|    Identificador tarjeta   |  Varchar(10) |
+| Fecha de caducidad tarjeta |     Date     |
+
+4. Clientes registrados/VIP: Distinción para los usuario de tipo VIP.  
+
+|          Atributo          |     Tipo     |
+|:--------------------------:|:------------:|
+|             Puntos         |  Int         |
+
+5. Clientes registrados/Normal: Distinción para los usuarios de tipo Normal.  
+
+6. Empleados: Entidad para registrar a todos los empleados de la empresa.  
+
+|          Atributo          |     Tipo     |
+|:--------------------------:|:------------:|
+|             DNI            |  Varchar(9)  |
+|          Teléfono          |  Varchar(12) |
+|            Cargo           |  Varchar(30) |
+|       Nombre completo      | Varchar(100) |
+|           *Nombre          |  Varchar(30) |
+|         *Apellidos         |  Varchar(30) |
+
+7. Contratos: Es la entidad asociada a los empleados para registrar sus contratos.  
+
+|          Atributo          |     Tipo     |
+|:--------------------------:|:------------:|
+|        Identificador       |  Varchar(10) |
+|            *DNI            |  Varchar(9)  |
+|         *ContratoID        |  Varchar(10) |
+|           Sueldo           |     Float    |
+|       Nombre completo      | Varchar(100) |
+|           *Nombre          |  Varchar(30) |
+|         *Apellidos         |  Varchar(30) |
+|       Fecha de inicio      |     Date     |
+
+8. Contratos/Indefinido: Para los contratos indefinidos.  
+
+9. Contratos/Temporal: Para los contratos temporales.  
+
+|          Atributo          |     Tipo     |
+|:--------------------------:|:------------:|
+|  Fecha de finalización     |  Date        |
+
+10. Registro de ventas: Para conocer los datos de una venta de libros en las librerías.  
+
+|     Atributo    |     Tipo    |
+|:---------------:|:-----------:|
+| Código de venta | Varchar(10) |
+|  Fecha de venta |     Date    |
+|       ISBN      | Varchar(12) |
+|      Título     | Varchar(50) |
+
+11. Géneros: Sirve para distinguir los géneros en los que se puede encapsular un libro.  
+
+|   Atributo   |     Tipo    |
+|:------------:|:-----------:|
+|    Nombre    | Varchar(20) |
+| Nº de libros |     Int     |
+|    Interés   | Varchar(10) |
 
 ### 3.2. Modelo Relacional.
 

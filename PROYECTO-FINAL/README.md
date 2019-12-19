@@ -60,20 +60,20 @@ El nivel de complejidad de un diagrama ER puede variar mucho, por ello se ha dec
 
 IDENTIFICAIÓN Y DEFINICIÓN DE ENTIDADES  
 
-1. Librerías: Representa a cada una de las librerías de la cadena Epopeya.  
+1. **Librerías**: Representa a cada una de las librerías de la cadena Epopeya.  
 
 | Atributo      | Tipo        |
 | :-----------: |:-----------:|
-| Identificador | Varchar(10) |
+| **Identificador** | Varchar(10) |
 | Localización  | Varchar(50) |
 | Nombre        | Varchar(30) |
 | Teléfono      | Varchar(12) |
 
-2. Libros: Es la entidad que representa a cada uno de los libros de los que se dispone.  
+2. **Libros**: Es la entidad que representa a cada uno de los libros de los que se dispone.  
 
 |       Atributo       |      Tipo     |
 |:--------------------:|:-------------:|
-|         ISBN         |  Varchar(12)  |
+|         **ISBN**         |  Varchar(12)  |
 |        Título        |  Varchar(50)  |
 |        Precio        |     Float     |
 |        Género        |  Varchar(20)  |
@@ -82,11 +82,11 @@ IDENTIFICAIÓN Y DEFINICIÓN DE ENTIDADES
 |         Stock        |      Int      |
 |        Edición       |      Int      |
 
-3. Clientes registrados: Representa a los clientes registrados a las librerías.  
+3. **Clientes registrados**: Representa a los clientes registrados a las librerías.  
 
 |          Atributo          |     Tipo     |
 |:--------------------------:|:------------:|
-|             DNI            |  Varchar(9)  |
+|             **DNI**            |  Varchar(9)  |
 |       Nombre comlpeto      | Varchar(100) |
 |           *Nombre          |  Varchar(30) |
 |         *Apellidos         |  Varchar(30) |
@@ -95,30 +95,30 @@ IDENTIFICAIÓN Y DEFINICIÓN DE ENTIDADES
 |    Identificador tarjeta   |  Varchar(10) |
 | Fecha de caducidad tarjeta |     Date     |
 
-4. Clientes registrados/VIP: Distinción para los usuario de tipo VIP.  
+4. **_Clientes registrados_/VIP**: Distinción para los usuario de tipo VIP.  
 
 |          Atributo          |     Tipo     |
 |:--------------------------:|:------------:|
 |             Puntos         |  Int         |
 
-5. Clientes registrados/Normal: Distinción para los usuarios de tipo Normal.  
+5. **_Clientes registrados_/Normal**: Distinción para los usuarios de tipo Normal.  
 
-6. Empleados: Entidad para registrar a todos los empleados de la empresa.  
+6. **Empleados**: Entidad para registrar a todos los empleados de la empresa.  
 
 |          Atributo          |     Tipo     |
 |:--------------------------:|:------------:|
-|             DNI            |  Varchar(9)  |
+|             **DNI**            |  Varchar(9)  |
 |          Teléfono          |  Varchar(12) |
 |            Cargo           |  Varchar(30) |
 |       Nombre completo      | Varchar(100) |
 |           *Nombre          |  Varchar(30) |
 |         *Apellidos         |  Varchar(30) |
 
-7. Contratos: Es la entidad asociada a los empleados para registrar sus contratos.  
+7. **Contratos**: Es la entidad asociada a los empleados para registrar sus contratos.  
 
 |          Atributo          |     Tipo     |
 |:--------------------------:|:------------:|
-|        Identificador       |  Varchar(10) |
+|        **Identificador**       |  Varchar(10) |
 |            *DNI            |  Varchar(9)  |
 |         *ContratoID        |  Varchar(10) |
 |           Sueldo           |     Float    |
@@ -127,28 +127,28 @@ IDENTIFICAIÓN Y DEFINICIÓN DE ENTIDADES
 |         *Apellidos         |  Varchar(30) |
 |       Fecha de inicio      |     Date     |
 
-8. Contratos/Indefinido: Para los contratos indefinidos.  
+8. **_Contratos_/Indefinido**: Para los contratos indefinidos.  
 
-9. Contratos/Temporal: Para los contratos temporales.  
+9. **_Contratos_/Temporal**: Para los contratos temporales.  
 
 |          Atributo          |     Tipo     |
 |:--------------------------:|:------------:|
 |  Fecha de finalización     |  Date        |
 
-10. Registro de ventas: Para conocer los datos de una venta de libros en las librerías.  
+10. **Registro de ventas**: Para conocer los datos de una venta de libros en las librerías.  
 
 |     Atributo    |     Tipo    |
 |:---------------:|:-----------:|
-| Código de venta | Varchar(10) |
+| **Código de venta** | Varchar(10) |
 |  Fecha de venta |     Date    |
 |       ISBN      | Varchar(12) |
 |      Título     | Varchar(50) |
 
-11. Géneros: Sirve para distinguir los géneros en los que se puede encapsular un libro.  
+11. **Géneros**: Sirve para distinguir los géneros en los que se puede encapsular un libro.  
 
 |   Atributo   |     Tipo    |
 |:------------:|:-----------:|
-|    Nombre    | Varchar(20) |
+|    **Nombre**    | Varchar(20) |
 | Nº de libros |     Int     |
 |    Interés   | Varchar(10) |
 

@@ -15,7 +15,7 @@ Lorem ipsum
 
 ## 2. Definición de requisitos del sistema de base de datos.
 
-> Enlace al documento: [Documento de requisitos](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Requisitos%20de%20Librer%C3%ADa%20Epopeya.pdf) 
+> Enlace al documento: [Documento de requisitos](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Requisitos%20de%20Libreria%20Epopeya.pdf) 
 
 La empresa Epopeya se dedica a la venta de libros de toda índole, desde los manuscritos más clásicos hasta lo último en vanguardia. Es una empresa con una gran trayectoria dentro del sector, y en los últimos tiempos se ha decidido informatizarse, para así poder dar un mejor servicio a sus clientes, así como para llevar una gestión más eficientes de sus librerías y recursos.  
 
@@ -56,7 +56,7 @@ El nivel de complejidad de un diagrama ER puede variar mucho, por ello se ha dec
 
 ### 3.1.2. ER extendido (diseño de la BD).
 
-> Enlace al documento: [Documento de ERE]()  
+> Enlace al documento: [Documento de ERE](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/ER%20extendido.pdf)  
 
 IDENTIFICAIÓN Y DEFINICIÓN DE ENTIDADES  
 
@@ -152,6 +152,30 @@ IDENTIFICAIÓN Y DEFINICIÓN DE ENTIDADES
 | Nº de libros |     Int     |
 |    Interés   | Varchar(10) |
 
+IDENTIFICACIÓN Y DEFINICIÓN DE INTERRELACIONES  
+
+- Las librerías (1,N) CUENTAN CON (0,N) clientes registrados.
+- Las librerías (1,1) ALMACENAN (0,N) registro de ventas.
+- Las librerías (1,1) DISPONEN (1,N) empleados.
+- Las librerías (0,N) DISPONEN (0,N) libros. 
+
+|   Atributo   |     Tipo     |
+|:------------:|:------------:|
+|  Stock       |  Int         |
+|  Precio      |  Float       |
+
+- Las librerías tienen libros NOVEDOSOS (exclusividad).
+
+|   Atributo                     |     Tipo     |
+|:------------------------------:|:------------:|
+|  Fecha de inicio novedad       |  Date        |
+|  Plazo en novedad              |  Time        |
+
+- Los libros (0,N) PERTENECEN (1,N) géneros.
+- Los empleados (1,1) TIENEN (débil) (1,1) contratos.
+
+//meter aqui foto de ER extendido en workbench si tal
+
 ### 3.2. Modelo Relacional.
 
 ### 3.3. Modelo UML.
@@ -171,3 +195,4 @@ IDENTIFICAIÓN Y DEFINICIÓN DE ENTIDADES
 ## 8. Referencias.
 
 * [Documento de requisitos en DRIVE](https://drive.google.com/open?id=1j2uHcNPnuSnuFk_eSTUGj-u-4FdOw5j0)
+* [Documento de ER extendido en DRIVE](https://drive.google.com/open?id=14oHdXijBMPkw-de82yCg8O4VXaBSC_Sy)

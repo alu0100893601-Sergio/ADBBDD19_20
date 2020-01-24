@@ -23,7 +23,7 @@ if (mysqli_query($conexion, $sql)) {
   echo "Error: " . $sql . "<br>" . mysqli_error($conexion);
 }
 
-header('Location: practica.php');
+header('Location: index.php');
 
 ?>
 </body>

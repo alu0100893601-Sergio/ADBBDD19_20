@@ -17,7 +17,7 @@ $db = mysqli_select_db($conexion, $basededatos) or die("Upps! Pues va a ser que 
 $sql_del="DELETE FROM titulos WHERE title='{$_REQUEST["titulo_del"]}'";
 mysqli_query($conexion, $sql_del);
 
-header('Location: practica.php');
+header('Location: index.php');
 
 ?>
 </body>

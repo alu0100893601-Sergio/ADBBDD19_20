@@ -16,7 +16,7 @@ $sql_mod="UPDATE titulos SET title='{$_REQUEST["new_titulo"]}', director='{$_REQ
  WHERE title='{$_REQUEST["titulo_mod"]}'";
 mysqli_query($conexion, $sql_mod);
 
-echo "Error: " . $sql_mod . "<br>" . mysqli_error($conexion);
+header('Location: index.php');
 
 ?>
 </body>

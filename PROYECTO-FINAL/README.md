@@ -177,11 +177,25 @@ IDENTIFICACIÓN Y DEFINICIÓN DE INTERRELACIONES
 - Los libros (0,N) PERTENECEN (1,N) géneros.
 - Los empleados (1,1) TIENEN (débil) (1,1) contratos.
 
-//meter aqui foto de ER extendido en workbench si tal
+Al trasladar esto a la herramienta de MySQL Workbench para obtener una visión más detallada del modelo, se obtiene el siguiente resultado.
+
+IMAGEN AQUI
+
+Una vez obtenido esto, dentro de esta herramienta se generarán los códigos necesarios para crear la base de datos, introducir registros, etc., tal y como se detalla en epígrafes posteriores.
 
 ### 3.2. Modelo Relacional.
 
+El modelo relacional se usa para el modelado y la gestión de bases de datos, es un modelo de datos basado en la lógica de predicados y en la teoría de conjuntos. Con esta idea, se ha procedido con el supuesto de este proyecto para obtener un modelo relacional que cumpla con los requisitos necesarios, tal y como se muestra a continuación.
+
+poner relacional aqui
+
 ### 3.3. Modelo UML.
+
+Por definición, UML es un lenguaje de modelado visual común y semántica y sintácticamente rico para la arquitectura, el diseño y la implementación de sistemas de software complejos, tanto en estructura como en comportamiento. Por ello UML es efectivo para el modelado de alto nivel de datos conceptuales y se puede usar en diferentes tipos de diagramas UML.
+
+De esta manera, para la base de datos que se pretende crear en este proyecto, con UML se obtiene lo siguiente.
+
+poner uml aqui
 
 ## 4. Códigos SQL generados.
 

@@ -11,7 +11,10 @@
 
 ## 1. Resumen ejecutivo.
 
-Lorem ipsum
+A lo largo de este documento se ha recogido todos los pasos llevados a cabo para realizar un proyecto de base de datos sobre un supuesto que previamente se ha inventado con el fin de cumplir todos los requisitos establecidos para poder considerar que el proyecto realizado ha sido un éxito.
+
+Entre estos procesos se puede destacar la definición de los requisitos del proyecto, donde se definen los requerimientos de forma explícita y extendida que  sirven para establecer las bases de todo lo que acontece en el proyecto. También figuran los modelos de la base de datos, es decir, los modelos de Entidad-Relación, UMLs, etc. A parte de esto se describen otros conceptos de manera más detallada para cumplimentar todo lo referente al proyecto.
+
 
 ## 2. Definición de requisitos del sistema de base de datos.
 

@@ -185,7 +185,7 @@ Una vez obtenido esto, dentro de esta herramienta se generarán los códigos nec
 
 ### 3.2. Modelo Relacional.
 
-> Enlace al documento: [Documento de ERE](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/ER%20extendido.pdf)  
+  
 
 El modelo relacional se usa para el modelado y la gestión de bases de datos, es un modelo de datos basado en la lógica de predicados y en la teoría de conjuntos. Con esta idea, se ha procedido con el supuesto de este proyecto para obtener un modelo relacional que cumpla con los requisitos necesarios, tal y como se muestra a continuación.
 

@@ -185,7 +185,7 @@ Una vez obtenido esto, dentro de esta herramienta se generarán los códigos nec
 
 ### 3.2. Modelo Relacional.
 
-  
+ > Enlace al documento: [Documento de ERE](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Modelo%20relacional.pdf) 
 
 El modelo relacional se usa para el modelado y la gestión de bases de datos, es un modelo de datos basado en la lógica de predicados y en la teoría de conjuntos. Con esta idea, se ha procedido con el supuesto de este proyecto para obtener un modelo relacional que cumpla con los requisitos necesarios, tal y como se muestra a continuación.
 
@@ -217,3 +217,4 @@ poner uml aqui
 
 * [Documento de requisitos en DRIVE](https://drive.google.com/open?id=1j2uHcNPnuSnuFk_eSTUGj-u-4FdOw5j0)
 * [Documento de ER extendido en DRIVE](https://drive.google.com/open?id=14oHdXijBMPkw-de82yCg8O4VXaBSC_Sy)
+* [Documento de Relacional en DRIVE](https://drive.google.com/open?id=1jhaiwKWg63Mkyq79f2KCNH1yNH8-lcvf)

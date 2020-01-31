@@ -189,9 +189,9 @@ Una vez obtenido esto, dentro de esta herramienta se generarán los códigos nec
 
 El modelo relacional se usa para el modelado y la gestión de bases de datos, es un modelo de datos basado en la lógica de predicados y en la teoría de conjuntos. Con esta idea, se ha procedido con el supuesto de este proyecto para obtener un modelo relacional que cumpla con los requisitos necesarios, tal y como se muestra a continuación.
 
-![Entidades de relacional](Imagenes/relacional_entidades.png)  
+![Entidades de relacional](Imagenes/rel_entidades.png)  
 
-![Relaciones del relacional](Imagenes/relacional_relaciones.png)  
+![Relaciones del relacional](Imagenes/rel_relaciones.png)  
 
 ### 3.3. Modelo UML.
 

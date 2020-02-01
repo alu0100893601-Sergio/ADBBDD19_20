@@ -822,3 +822,7 @@ Como se ha procedido en el apartado anterior, ahora se comprueba que los datos i
 
 * [Documento de distribución de tareas](#)
 * [Documento de distribución de tareas en DRIVE](#)
+
+### 8.2. Archivo de MySQL Workbench
+
+* [Archivo de MySQL Workbench](#)

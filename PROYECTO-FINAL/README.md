@@ -205,6 +205,8 @@ De esta manera, para la base de datos que se pretende crear en este proyecto, co
 
 ### 3.3.1. Script
 
+> Enlace al documento: [Script con UML](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/archivos-Scripts/script_from_UML.sql) 
+
 ```SQL  
 --Librerias--
 CREATE TABLE Librerias

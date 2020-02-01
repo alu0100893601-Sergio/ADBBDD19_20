@@ -807,20 +807,18 @@ Como se ha procedido en el apartado anterior, ahora se comprueba que los datos i
 
 > Enlace al documento: [Documento de Carga y prueba de datos](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Carga%20y%20prueba%20de%20datos.pdf) 
 
-## 7. Triggers.
+## 7. Conclusión.
 
-## 8. Conclusion.
-
-## 9. Referencias.
+## 8. Referencias.
 
 * [Documento de requisitos en DRIVE](https://drive.google.com/open?id=1j2uHcNPnuSnuFk_eSTUGj-u-4FdOw5j0)
 * [Documento de ER extendido en DRIVE](https://drive.google.com/open?id=14oHdXijBMPkw-de82yCg8O4VXaBSC_Sy)
 * [Documento de Relacional en DRIVE](https://drive.google.com/open?id=1SAG76JNHID_n8ARVWePMy1ioT-UZJIUg)
 * [Documento de Objeto-Relacional en DRIVE](#)
-* [Documento de Scripts generados en DRIVE](#)
+* [Documento de Scripts generados en DRIVE](https://drive.google.com/open?id=1zF-B86vVjP3x7DrHCP4a8xWFvzIkc3wm)
 * [Documento de Carga y Prueba de Datos en Drive en DRIVE](#)
 
-## 9.1. Documento de distribución de tareas
+## 8.1. Documento de distribución de tareas
 
 * [Documento de distribución de tareas](#)
 * [Documento de distribución de tareas en DRIVE](#)

@@ -808,6 +808,11 @@ Como se ha procedido en el apartado anterior, ahora se comprueba que los datos i
 > Enlace al documento: [Documento de Carga y prueba de datos](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Carga%20de%20datos%20y%20pruebas.pdf) 
 
 ## 7. Conclusión.
+A lo largo de este proyecto se han trabajo, perfeccionado y practicado todos los conceptos que se han trabajo a lo largo de los los 4 meses en los que se ha impartido la asignatura. El trabajo continuo ha concluido con el desarrollo exitoso de este proyecto, cumpliendo con los requisitos y metas propuestos en un principio.  
+
+Como aspectos favorables a destacar, se ha trabajado con las herramientas necesarias aprovechando para aumentar el conocimiento sobre estas, y así implementar un supuesto de base de datos satisfactorio. Distintamente, como aspectos negativos y mejorables de esta práctica son las pruebas y restricciones aplicables a una base de datos, ausentes en su mayoría en este proyecto por falta de conocimiento del concepto.  
+
+En cuanto al trabajo como grupo, todo se ha llevado a cabo sin ningún inconveniente y dentro de un entorno agradable.  
 
 ## 8. Referencias.
 

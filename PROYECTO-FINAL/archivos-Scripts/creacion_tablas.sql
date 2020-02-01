@@ -47,9 +47,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Epopeyadb`.`Clientes Registrados VIP`
+-- Table `Epopeyadb`.`Clientes_Registrados_VIP`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Clientes Registrados VIP` (
+CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Clientes_Registrados_VIP` (
   `DNI` VARCHAR(9) NOT NULL,
   `Nombre` VARCHAR(45) NOT NULL,
   `Apellidos` VARCHAR(45) NOT NULL,
@@ -63,9 +63,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Epopeyadb`.`Clientes Registrados Normal`
+-- Table `Epopeyadb`.`Clientes_Registrados_Normal`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Clientes Registrados Normal` (
+CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Clientes_Registrados_Normal` (
   `DNI` VARCHAR(9) NOT NULL,
   `Nombre` VARCHAR(45) NOT NULL,
   `Apellidos` VARCHAR(45) NOT NULL,
@@ -78,9 +78,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Epopeyadb`.`Cuentan con`
+-- Table `Epopeyadb`.`Cuentan_con`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Cuentan con` (
+CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Cuentan_con` (
   `Librerias_Identificador` INT NOT NULL,
   `Clientes Registrados VIP_DNI` VARCHAR(9) NOT NULL,
   `Clientes Registrados Normal_DNI` VARCHAR(9) NOT NULL,
@@ -95,12 +95,12 @@ CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Cuentan con` (
     ON UPDATE CASCADE,
   CONSTRAINT `fk_Cuentan con_Clientes Registrados VIP1`
     FOREIGN KEY (`Clientes Registrados VIP_DNI`)
-    REFERENCES `Epopeyadb`.`Clientes Registrados VIP` (`DNI`)
+    REFERENCES `Epopeyadb`.`Clientes_Registrados_VIP` (`DNI`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_Cuentan con_Clientes Registrados Normal1`
     FOREIGN KEY (`Clientes Registrados Normal_DNI`)
-    REFERENCES `Epopeyadb`.`Clientes Registrados Normal` (`DNI`)
+    REFERENCES `Epopeyadb`.`Clientes_Registrados_Normal` (`DNI`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
@@ -112,7 +112,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Libros` (
   `ISBN` VARCHAR(20) NOT NULL,
   `Titulo` VARCHAR(45) NOT NULL,
-  `Precio` INT NOT NULL,
+  `Precio` DOUBLE NOT NULL,
   `Fecha lanzamiento` DATE NOT NULL,
   `Autor` VARCHAR(45) NOT NULL,
   `Stock` INT NOT NULL,
@@ -122,9 +122,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Epopeyadb`.`Registro Ventas`
+-- Table `Epopeyadb`.`Registro_Ventas`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Registro Ventas` (
+CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Registro_Ventas` (
   `Codigo Ventas` INT NOT NULL,
   `Fecha Venta` DATE NOT NULL,
   `ISBN` VARCHAR(20) NOT NULL,
@@ -146,9 +146,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Epopeyadb`.`Contrato Indefinido`
+-- Table `Epopeyadb`.`Contrato_Indefinido`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Contrato Indefinido` (
+CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Contrato_Indefinido` (
   `Contrato_ID` VARCHAR(20) NOT NULL,
   `Empleados_DNI` VARCHAR(9) NOT NULL,
   `Nombre` VARCHAR(45) NOT NULL,
@@ -166,9 +166,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Epopeyadb`.`Contrato Temporal`
+-- Table `Epopeyadb`.`Contrato_Temporal`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Contrato Temporal` (
+CREATE TABLE IF NOT EXISTS `Epopeyadb`.`Contrato_Temporal` (
   `Contrato_ID` VARCHAR(20) NOT NULL,
   `Empleados_DNI` VARCHAR(9) NOT NULL,
   `Nombre` VARCHAR(45) NOT NULL,

@@ -29,40 +29,40 @@ COMMIT;
 
 
 -- -----------------------------------------------------
--- Data for table `Epopeyadb`.`Clientes Registrados VIP`
+-- Data for table `Epopeyadb`.`Clientes_Registrados_VIP`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `Epopeyadb`;
-INSERT INTO `Epopeyadb`.`Clientes Registrados VIP` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha Caducidad`, `Puntos`) VALUES ('97234733F', 'Mariano', 'Manuel Galea', 'marianomanuelgalea@gmail.com', '22-12-1995', 1, '03-03-2020', 1500);
-INSERT INTO `Epopeyadb`.`Clientes Registrados VIP` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha Caducidad`, `Puntos`) VALUES ('87248126Y', 'Yohanna ', 'Masana', 'yohanna@hotmail.com', '08-07-1989', 2, '09-10-2020', 2000);
-INSERT INTO `Epopeyadb`.`Clientes Registrados VIP` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha Caducidad`, `Puntos`) VALUES ('87234875T', 'Francisca ', 'Asis Chavarri', 'franciscaasischavarri@gmail.com', '05-05-1970', 3, '03-06-2021', 4000);
-INSERT INTO `Epopeyadb`.`Clientes Registrados VIP` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha Caducidad`, `Puntos`) VALUES ('98458453V', 'Claudia', 'Cristina Pacon', 'claudiacristinapacon@gmail.com', '10-12-1983', 4, '07-12-2022', 500);
+INSERT INTO `Epopeyadb`.`Clientes_Registrados_VIP` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha Caducidad`, `Puntos`) VALUES ('97234733F', 'Mariano', 'Manuel Galea', 'marianomanuelgalea@gmail.com', '1995-12-22', 1, '2020-03-03', 1500);
+INSERT INTO `Epopeyadb`.`Clientes_Registrados_VIP` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha Caducidad`, `Puntos`) VALUES ('87248126Y', 'Yohanna ', 'Masana', 'yohanna@hotmail.com', '1989-07-08', 2, '2020-10-09', 2000);
+INSERT INTO `Epopeyadb`.`Clientes_Registrados_VIP` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha Caducidad`, `Puntos`) VALUES ('87234875T', 'Francisca ', 'Asis Chavarri', 'franciscaasischavarri@gmail.com', '1970-05-05', 3, '2021-06-03', 4000);
+INSERT INTO `Epopeyadb`.`Clientes_Registrados_VIP` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha Caducidad`, `Puntos`) VALUES ('98458453V', 'Claudia', 'Cristina Pacon', 'claudiacristinapacon@gmail.com', '1983-12-10', 4, '2022-12-07', 500);
 
 COMMIT;
 
 
 -- -----------------------------------------------------
--- Data for table `Epopeyadb`.`Clientes Registrados Normal`
+-- Data for table `Epopeyadb`.`Clientes_Registrados_Normal`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `Epopeyadb`;
-INSERT INTO `Epopeyadb`.`Clientes Registrados Normal` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha caducidad`) VALUES ('87234531U', 'Isabel', 'Rodriguez Wan', 'isabelrodri@gmail.com', '20-03-1996', NULL, NULL);
-INSERT INTO `Epopeyadb`.`Clientes Registrados Normal` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha caducidad`) VALUES ('98457332V', 'Federico', 'Tomás Pérez', 'fede@gmail.com', '31-12-1990', 1, '31-12-2022');
-INSERT INTO `Epopeyadb`.`Clientes Registrados Normal` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha caducidad`) VALUES ('87234775S', 'Fermin', 'Cabrera Cabrera', 'fermincabreracabrera@gmail.com', '07-07-1979', NULL, NULL);
-INSERT INTO `Epopeyadb`.`Clientes Registrados Normal` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha caducidad`) VALUES ('98623675X', 'Marta', 'Reyes Reyes', 'martareyes@gmail.com', '28-11-1999', 2, '31-21-2020');
+INSERT INTO `Epopeyadb`.`Clientes_Registrados_Normal` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha caducidad`) VALUES ('87234531U', 'Isabel', 'Rodriguez Wan', 'isabelrodri@gmail.com', '1996-03-20', NULL, NULL);
+INSERT INTO `Epopeyadb`.`Clientes_Registrados_Normal` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha caducidad`) VALUES ('98457332V', 'Federico', 'Tomás Pérez', 'fede@gmail.com', '31-12-1990', 1, '2022-12-31');
+INSERT INTO `Epopeyadb`.`Clientes_Registrados_Normal` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha caducidad`) VALUES ('87234775S', 'Fermin', 'Cabrera Cabrera', 'fermincabreracabrera@gmail.com', '1979-07-07', NULL, NULL);
+INSERT INTO `Epopeyadb`.`Clientes_Registrados_Normal` (`DNI`, `Nombre`, `Apellidos`, `Email`, `Fecha nacimiento`, `ID_Tarjeta`, `Fecha caducidad`) VALUES ('98623675X', 'Marta', 'Reyes Reyes', 'martareyes@gmail.com', '1999-11-28', 2, '2020-12-31');
 
 COMMIT;
 
 
 -- -----------------------------------------------------
--- Data for table `Epopeyadb`.`Cuentan con`
+-- Data for table `Epopeyadb`.`Cuentan_con`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `Epopeyadb`;
-INSERT INTO `Epopeyadb`.`Cuentan con` (`Librerias_Identificador`, `Clientes Registrados VIP_DNI`, `Clientes Registrados Normal_DNI`) VALUES (1, '97234733F', '87234531U');
-INSERT INTO `Epopeyadb`.`Cuentan con` (`Librerias_Identificador`, `Clientes Registrados VIP_DNI`, `Clientes Registrados Normal_DNI`) VALUES (2, '87248126Y', '98457332V');
-INSERT INTO `Epopeyadb`.`Cuentan con` (`Librerias_Identificador`, `Clientes Registrados VIP_DNI`, `Clientes Registrados Normal_DNI`) VALUES (3, '87234875T', '87234775S');
-INSERT INTO `Epopeyadb`.`Cuentan con` (`Librerias_Identificador`, `Clientes Registrados VIP_DNI`, `Clientes Registrados Normal_DNI`) VALUES (1, '98458453V', '98623675X');
+INSERT INTO `Epopeyadb`.`Cuentan_con` (`Librerias_Identificador`, `Clientes Registrados VIP_DNI`, `Clientes Registrados Normal_DNI`) VALUES (1, '97234733F', '87234531U');
+INSERT INTO `Epopeyadb`.`Cuentan_con` (`Librerias_Identificador`, `Clientes Registrados VIP_DNI`, `Clientes Registrados Normal_DNI`) VALUES (2, '87248126Y', '98457332V');
+INSERT INTO `Epopeyadb`.`Cuentan_con` (`Librerias_Identificador`, `Clientes Registrados VIP_DNI`, `Clientes Registrados Normal_DNI`) VALUES (3, '87234875T', '87234775S');
+INSERT INTO `Epopeyadb`.`Cuentan_con` (`Librerias_Identificador`, `Clientes Registrados VIP_DNI`, `Clientes Registrados Normal_DNI`) VALUES (1, '98458453V', '98623675X');
 
 COMMIT;
 
@@ -72,59 +72,59 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `Epopeyadb`;
-INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8466424482', 'Origen', 12.30, '01/10/2016', 'Dan Brown', 150, 2);
-INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8408176102', 'Fortaleza Digital', 10.30, '01/10/2000', 'Dan Brown', 150, 3);
-INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8408175769', 'La Conspiracion', 10.30, '01/10/2003', 'Dan Brown', 150, 3);
-INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8408175726', 'El Codigo Da Vinci', 10.30, '01/10/2006', 'Dan Brown', 150, 3);
-INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8408178946', 'El Fuego Invisible', 16.50, '01/10/2017', 'Javier Sierra', 150, 2);
-INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8497930193', 'Los ojos del Dragon', 9.99, '01/10/1996', 'Stephen King', 150, 6);
-INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8445000667', 'La Comunidad del Anillo', 16.20, '01/10/1957', 'Tolkien', 150, 9);
+INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8466424482', 'Origen', 12.30, '2016-10-01', 'Dan Brown', 150, 2);
+INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8408176102', 'Fortaleza Digital', 10.30, '2000-10-01', 'Dan Brown', 150, 3);
+INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8408175769', 'La Conspiracion', 10.30, '2003-10-01', 'Dan Brown', 150, 3);
+INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8408175726', 'El Codigo Da Vinci', 10.30, '2006-10-01', 'Dan Brown', 150, 3);
+INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8408178946', 'El Fuego Invisible', 16.50, '2017-10-01', 'Javier Sierra', 150, 2);
+INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8497930193', 'Los ojos del Dragon', 9.99, '1996-10-01', 'Stephen King', 150, 6);
+INSERT INTO `Epopeyadb`.`Libros` (`ISBN`, `Titulo`, `Precio`, `Fecha lanzamiento`, `Autor`, `Stock`, `Edicion`) VALUES ('8445000667', 'La Comunidad del Anillo', 16.20, '1957-10-01', 'Tolkien', 150, 9);
 
 COMMIT;
 
 
 -- -----------------------------------------------------
--- Data for table `Epopeyadb`.`Registro Ventas`
+-- Data for table `Epopeyadb`.`Registro_Ventas`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `Epopeyadb`;
-INSERT INTO `Epopeyadb`.`Registro Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (1, '01-12-2019', '8466424482', 1);
-INSERT INTO `Epopeyadb`.`Registro Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (2, '04-08-2019', '8466424482', 1);
-INSERT INTO `Epopeyadb`.`Registro Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (3, '05-07-2018', '8408175769', 2);
-INSERT INTO `Epopeyadb`.`Registro Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (4, '09-01-2020', '8408175769', 3);
-INSERT INTO `Epopeyadb`.`Registro Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (5, '20-12-2019', '8408175769', 3);
-INSERT INTO `Epopeyadb`.`Registro Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (6, '17-09-2019', '8497930193', 1);
-INSERT INTO `Epopeyadb`.`Registro Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (7, '22-12-2019', '8497930193', 1);
-INSERT INTO `Epopeyadb`.`Registro Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (8, '13-06-2019', '8497930193', 3);
-INSERT INTO `Epopeyadb`.`Registro Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (9, '28-11-2019', '8445000667', 1);
-INSERT INTO `Epopeyadb`.`Registro Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (10, '20-4-2019', '8445000667', 1);
+INSERT INTO `Epopeyadb`.`Registro_Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (1, '2019-12-01', '8466424482', 1);
+INSERT INTO `Epopeyadb`.`Registro_Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (2, '2019-08-04', '8466424482', 1);
+INSERT INTO `Epopeyadb`.`Registro_Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (3, '2018-07-05', '8408175769', 2);
+INSERT INTO `Epopeyadb`.`Registro_Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (4, '2020-01-09', '8408175769', 3);
+INSERT INTO `Epopeyadb`.`Registro_Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (5, '2019-12-20', '8408175769', 3);
+INSERT INTO `Epopeyadb`.`Registro_Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (6, '2019-09-17', '8497930193', 1);
+INSERT INTO `Epopeyadb`.`Registro_Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (7, '2019-12-22', '8497930193', 1);
+INSERT INTO `Epopeyadb`.`Registro_Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (8, '2019-06-13', '8497930193', 3);
+INSERT INTO `Epopeyadb`.`Registro_Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (9, '2019-11-28', '8445000667', 1);
+INSERT INTO `Epopeyadb`.`Registro_Ventas` (`Codigo Ventas`, `Fecha Venta`, `ISBN`, `Librerias_Identificador`) VALUES (10, '2019-04-20', '8445000667', 1);
 
 COMMIT;
 
 
 -- -----------------------------------------------------
--- Data for table `Epopeyadb`.`Contrato Indefinido`
+-- Data for table `Epopeyadb`.`Contrato_Indefinido`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `Epopeyadb`;
-INSERT INTO `Epopeyadb`.`Contrato Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('1', '38291029R', 'Sergio', 'Chic Reus', 1400, '20-8-2018');
-INSERT INTO `Epopeyadb`.`Contrato Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('2', '63473234H', 'Francisca', 'Rodríguez Pérez', 1400, '04-05-2018');
-INSERT INTO `Epopeyadb`.`Contrato Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('3', '32484583J', 'Zaida', 'Tao Moreno', 1300, '01-01-2019');
-INSERT INTO `Epopeyadb`.`Contrato Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('4', '84598453T', 'Natalia', 'Pérez Rodriguez', 1500, '01-01-2018');
-INSERT INTO `Epopeyadb`.`Contrato Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('5', '74837219D', 'María', 'Tosa Martin', 1000, '20-10-2018');
-INSERT INTO `Epopeyadb`.`Contrato Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('6', '87234984L', 'Dámaris', 'Moreno Delgado', 1000, '06-09-2018');
+INSERT INTO `Epopeyadb`.`Contrato_Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('1', '38291029R', 'Sergio', 'Chic Reus', 1400, '2018-08-20');
+INSERT INTO `Epopeyadb`.`Contrato_Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('2', '63473234H', 'Francisca', 'Rodríguez Pérez', 1400, '2018-05-04');
+INSERT INTO `Epopeyadb`.`Contrato_Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('3', '32484583J', 'Zaida', 'Tao Moreno', 1300, '2019-01-01');
+INSERT INTO `Epopeyadb`.`Contrato_Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('4', '84598453T', 'Natalia', 'Pérez Rodriguez', 1500, '2018-01-01');
+INSERT INTO `Epopeyadb`.`Contrato_Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('5', '74837219D', 'María', 'Tosa Martin', 1000, '2018-10-20');
+INSERT INTO `Epopeyadb`.`Contrato_Indefinido` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`) VALUES ('6', '87234984L', 'Dámaris', 'Moreno Delgado', 1000, '2018-09-06');
 
 COMMIT;
 
 
 -- -----------------------------------------------------
--- Data for table `Epopeyadb`.`Contrato Temporal`
+-- Data for table `Epopeyadb`.`Contrato_Temporal`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `Epopeyadb`;
-INSERT INTO `Epopeyadb`.`Contrato Temporal` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`, `Fecha_finalizacion`) VALUES ('1', '89583294G', 'Jesús', 'Santana Santana', 1000, '03-09-2019', '03-09-2020');
-INSERT INTO `Epopeyadb`.`Contrato Temporal` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`, `Fecha_finalizacion`) VALUES ('2', '89343345V', 'Roberto ', 'Leal Leal', 1000, '23-07-2019', '23-07-2020');
-INSERT INTO `Epopeyadb`.`Contrato Temporal` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`, `Fecha_finalizacion`) VALUES ('3', '32948465Y', 'Alberto', 'Creus Toledo', 1000, '15-06-2019', '15-06-2020');
+INSERT INTO `Epopeyadb`.`Contrato_Temporal` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`, `Fecha_finalizacion`) VALUES ('1', '89583294G', 'Jesús', 'Santana Santana', 1000, '2019-09-03', '2020-09-03');
+INSERT INTO `Epopeyadb`.`Contrato_Temporal` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`, `Fecha_finalizacion`) VALUES ('2', '89343345V', 'Roberto ', 'Leal Leal', 1000, '2019-07-23', '2020-07-23');
+INSERT INTO `Epopeyadb`.`Contrato_Temporal` (`Contrato_ID`, `Empleados_DNI`, `Nombre`, `Apellidos`, `Sueldo`, `Fecha_inicio`, `Fecha_finalizacion`) VALUES ('3', '32948465Y', 'Alberto', 'Creus Toledo', 1000, '2019-06-15', '2020-06-15');
 
 COMMIT;
 
@@ -191,8 +191,8 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `Epopeyadb`;
-INSERT INTO `Epopeyadb`.`Novedoso` (`Librerias_Identificador`, `Libros_ISBN`, `Fecha_inicio`, `Fecha_fin`) VALUES (1, '8408178946', '01-12-2019', '01-02-2020');
-INSERT INTO `Epopeyadb`.`Novedoso` (`Librerias_Identificador`, `Libros_ISBN`, `Fecha_inicio`, `Fecha_fin`) VALUES (2, '8408178946', '02-12-2019', '02-03-2020');
-INSERT INTO `Epopeyadb`.`Novedoso` (`Librerias_Identificador`, `Libros_ISBN`, `Fecha_inicio`, `Fecha_fin`) VALUES (1, '8466424482', '01-12-2019', '01-03-2020');
+INSERT INTO `Epopeyadb`.`Novedoso` (`Librerias_Identificador`, `Libros_ISBN`, `Fecha_inicio`, `Fecha_fin`) VALUES (1, '8408178946', '2019-12-01', '01-02-2020');
+INSERT INTO `Epopeyadb`.`Novedoso` (`Librerias_Identificador`, `Libros_ISBN`, `Fecha_inicio`, `Fecha_fin`) VALUES (2, '8408178946', '2019-12-02', '02-03-2020');
+INSERT INTO `Epopeyadb`.`Novedoso` (`Librerias_Identificador`, `Libros_ISBN`, `Fecha_inicio`, `Fecha_fin`) VALUES (1, '8466424482', '2019-12-01', '01-03-2020');
 
 COMMIT;

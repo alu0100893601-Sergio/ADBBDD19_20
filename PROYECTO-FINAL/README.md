@@ -814,7 +814,7 @@ Como se ha procedido en el apartado anterior, ahora se comprueba que los datos i
 * [Documento de requisitos en DRIVE](https://drive.google.com/open?id=1j2uHcNPnuSnuFk_eSTUGj-u-4FdOw5j0)
 * [Documento de ER extendido en DRIVE](https://drive.google.com/open?id=14oHdXijBMPkw-de82yCg8O4VXaBSC_Sy)
 * [Documento de Relacional en DRIVE](https://drive.google.com/open?id=1SAG76JNHID_n8ARVWePMy1ioT-UZJIUg)
-* [Documento de Objeto-Relacional en DRIVE](#)
+* [Documento de Objeto-Relacional en DRIVE](https://drive.google.com/open?id=1RCSSrOTEeJ_sd4FfYTyoD7vakZfIhYLK)
 * [Documento de Scripts generados en DRIVE](https://drive.google.com/open?id=1zF-B86vVjP3x7DrHCP4a8xWFvzIkc3wm)
 * [Documento de Carga y Prueba de Datos en Drive en DRIVE](https://drive.google.com/open?id=1ZHkasznhqFMR9d0wo1mGo6dpEVbnGvY0)
 

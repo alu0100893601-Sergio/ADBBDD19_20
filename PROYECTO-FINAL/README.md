@@ -185,7 +185,7 @@ Una vez obtenido esto, dentro de esta herramienta se generarán los códigos nec
 
 ### 3.2. Modelo Relacional.
 
- > Enlace al documento: [Documento de ERE](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Modelo%20relacional.pdf) 
+ > Enlace al documento: [Documento de Modelo Relacional](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Modelo%20relacional.pdf) 
 
 El modelo relacional se usa para el modelado y la gestión de bases de datos, es un modelo de datos basado en la lógica de predicados y en la teoría de conjuntos. Con esta idea, se ha procedido con el supuesto de este proyecto para obtener un modelo relacional que cumpla con los requisitos necesarios, tal y como se muestra a continuación.
 
@@ -194,6 +194,8 @@ El modelo relacional se usa para el modelado y la gestión de bases de datos, es
 ![Relaciones del relacional](Imagenes/rel_relaciones.png)  
 
 ### 3.3. Modelo UML.
+
+> Enlace al documento: [Documento de modelo Objeto-Relacional](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Modelo%20ObjetoRelacional.pdf) 
 
 Por definición, UML es un lenguaje de modelado visual común y semántica y sintácticamente rico para la arquitectura, el diseño y la implementación de sistemas de software complejos, tanto en estructura como en comportamiento. Por ello UML es efectivo para el modelado de alto nivel de datos conceptuales y se puede usar en diferentes tipos de diagramas UML.
 
@@ -300,9 +302,13 @@ CREATE TABLE Contratos_indefinidos
 
 ## 4. Códigos SQL generados.
 
+> Enlace al documento: [Documento de Scripts](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Scripts.pdf) 
+
 ## 5. Creación de tablas.
 
 ## 6. Carga de datos.
+
+> Enlace al documento: [Documento de Carga y prueba de datos](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Carga%20y%20prueba%20de%20datos.pdf) 
 
 ## 7. Triggers.
 
@@ -311,3 +317,6 @@ CREATE TABLE Contratos_indefinidos
 * [Documento de requisitos en DRIVE](https://drive.google.com/open?id=1j2uHcNPnuSnuFk_eSTUGj-u-4FdOw5j0)
 * [Documento de ER extendido en DRIVE](https://drive.google.com/open?id=14oHdXijBMPkw-de82yCg8O4VXaBSC_Sy)
 * [Documento de Relacional en DRIVE](https://drive.google.com/open?id=1SAG76JNHID_n8ARVWePMy1ioT-UZJIUg)
+* [Documento de Objeto-Relacional en DRIVE](#)
+* [Documento de Scripts generados en DRIVE](#)
+* [Documento de Carga y Prueba de Datos en Drive en DRIVE](#)

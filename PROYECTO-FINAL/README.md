@@ -312,7 +312,9 @@ CREATE TABLE Contratos_indefinidos
 
 ## 7. Triggers.
 
-## 8. Referencias.
+## 8. Conclusion.
+
+## 9. Referencias.
 
 * [Documento de requisitos en DRIVE](https://drive.google.com/open?id=1j2uHcNPnuSnuFk_eSTUGj-u-4FdOw5j0)
 * [Documento de ER extendido en DRIVE](https://drive.google.com/open?id=14oHdXijBMPkw-de82yCg8O4VXaBSC_Sy)

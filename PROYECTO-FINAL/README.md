@@ -199,13 +199,11 @@ Por definición, UML es un lenguaje de modelado visual común y semántica y sin
 
 De esta manera, para la base de datos que se pretende crear en este proyecto, con UML se obtiene lo siguiente.
 
-poner uml aqui
+![UML Diagram](Imagenes/UML.png)  
+
+### 3.3.1. Script
 
 ## 4. Códigos SQL generados.
-
-### 4.1. Mediante E/R.
-
-### 4.2. Mediante diagrama UML (transformación a Objeto-Relacional).
 
 ## 5. Creación de tablas.
 

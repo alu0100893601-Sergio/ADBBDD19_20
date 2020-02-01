@@ -805,7 +805,7 @@ Como se ha procedido en el apartado anterior, ahora se comprueba que los datos i
 4. Contenido tabla **registro de ventas**.  
 ![UML Diagram](Imagenes/registro_ventas.png)  
 
-> Enlace al documento: [Documento de Carga y prueba de datos](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Carga%20y%20prueba%20de%20datos.pdf) 
+> Enlace al documento: [Documento de Carga y prueba de datos](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Carga%20de%20datos%20y%20pruebas.pdf) 
 
 ## 7. Conclusión.
 
@@ -816,7 +816,7 @@ Como se ha procedido en el apartado anterior, ahora se comprueba que los datos i
 * [Documento de Relacional en DRIVE](https://drive.google.com/open?id=1SAG76JNHID_n8ARVWePMy1ioT-UZJIUg)
 * [Documento de Objeto-Relacional en DRIVE](#)
 * [Documento de Scripts generados en DRIVE](https://drive.google.com/open?id=1zF-B86vVjP3x7DrHCP4a8xWFvzIkc3wm)
-* [Documento de Carga y Prueba de Datos en Drive en DRIVE](#)
+* [Documento de Carga y Prueba de Datos en Drive en DRIVE](https://drive.google.com/open?id=1ZHkasznhqFMR9d0wo1mGo6dpEVbnGvY0)
 
 ## 8.1. Documento de distribución de tareas
 

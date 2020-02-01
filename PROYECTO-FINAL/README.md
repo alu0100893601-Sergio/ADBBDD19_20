@@ -207,7 +207,7 @@ poner uml aqui
 
 ### 4.2. Mediante diagrama UML (transformación a Objeto-Relacional).
 
-## 5. Creación de tablas dentro de PostgreSQL.
+## 5. Creación de tablas.
 
 ## 6. Carga de datos.
 
@@ -217,4 +217,4 @@ poner uml aqui
 
 * [Documento de requisitos en DRIVE](https://drive.google.com/open?id=1j2uHcNPnuSnuFk_eSTUGj-u-4FdOw5j0)
 * [Documento de ER extendido en DRIVE](https://drive.google.com/open?id=14oHdXijBMPkw-de82yCg8O4VXaBSC_Sy)
-* [Documento de Relacional en DRIVE](https://drive.google.com/open?id=1jhaiwKWg63Mkyq79f2KCNH1yNH8-lcvf)
+* [Documento de Relacional en DRIVE](https://drive.google.com/open?id=1SAG76JNHID_n8ARVWePMy1ioT-UZJIUg)

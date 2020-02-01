@@ -324,3 +324,8 @@ CREATE TABLE Contratos_indefinidos
 * [Documento de Objeto-Relacional en DRIVE](#)
 * [Documento de Scripts generados en DRIVE](#)
 * [Documento de Carga y Prueba de Datos en Drive en DRIVE](#)
+
+## 9.1. Documento de distribución de tareas
+
+* [Documento de distribución de tareas](#)
+* [Documento de distribución de tareas en DRIVE](#)

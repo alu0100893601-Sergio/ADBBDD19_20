@@ -796,9 +796,13 @@ Para comprobar que se han creado las tablas, se procede mostrando las tablas que
 
 Como se ha procedido en el apartado anterior, ahora se comprueba que los datos introducidos en la base da datos mediante los archivos CSV, se han importado con éxito. A continuación se muestran algunas consultas a tablas.
 
+1. Contenido tabla **librerías**.  
 ![UML Diagram](Imagenes/librerias.png)  
+2. Contenido tabla **libros**.  
 ![UML Diagram](Imagenes/libros.png)  
+3. Contenido tabla **empleados**.  
 ![UML Diagram](Imagenes/empleados.png)  
+4. Contenido tabla **registro de ventas**.  
 ![UML Diagram](Imagenes/registro_ventas.png)  
 
 > Enlace al documento: [Documento de Carga y prueba de datos](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Carga%20y%20prueba%20de%20datos.pdf) 

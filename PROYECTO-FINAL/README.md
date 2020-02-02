@@ -823,11 +823,13 @@ En cuanto al trabajo como grupo, todo se ha llevado a cabo sin ningún inconveni
 * [Documento de Scripts generados en DRIVE](https://drive.google.com/open?id=1zF-B86vVjP3x7DrHCP4a8xWFvzIkc3wm)
 * [Documento de Carga y Prueba de Datos en Drive en DRIVE](https://drive.google.com/open?id=1ZHkasznhqFMR9d0wo1mGo6dpEVbnGvY0)
 
-## 8.1. Documento de distribución de tareas
+### 8.1. Documento de distribución de tareas
 
-* [Documento de distribución de tareas](#)
-* [Documento de distribución de tareas en DRIVE](#)
+![Distribución de tareas](Imagenes/tareas.png)
+
+* [Documento de distribución de tareas](#)(https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Distribucion%20de%20tareas.pdf)  
+* [Documento de distribución de tareas en DRIVE](https://drive.google.com/open?id=1T2D2c1z8-3Z4AbyXuOltMB9rDLplHHWZ)
 
 ### 8.2. Archivo de MySQL Workbench
 
-* [Archivo de MySQL Workbench](#)
+* [Archivo de MySQL Workbench](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/TrabajoFinal.mwb.pdf)

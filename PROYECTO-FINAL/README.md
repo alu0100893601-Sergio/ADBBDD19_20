@@ -827,7 +827,7 @@ En cuanto al trabajo como grupo, todo se ha llevado a cabo sin ningún inconveni
 
 ![Distribución de tareas](Imagenes/tareas.png)
 
-* [Documento de distribución de tareas](#)(https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Distribucion%20de%20tareas.pdf)  
+* [Documento de distribución de tareas](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/Documentos-finales/Distribucion%20de%20tareas.pdf)  
 * [Documento de distribución de tareas en DRIVE](https://drive.google.com/open?id=1T2D2c1z8-3Z4AbyXuOltMB9rDLplHHWZ)
 
 ### 8.2. Archivo de MySQL Workbench

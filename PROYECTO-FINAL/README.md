@@ -832,4 +832,4 @@ En cuanto al trabajo como grupo, todo se ha llevado a cabo sin ningún inconveni
 
 ### 8.2. Archivo de MySQL Workbench
 
-* [Archivo de MySQL Workbench](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/TrabajoFinal.mwb.pdf)
+* [Archivo de MySQL Workbench](https://github.com/alu0100893601-Sergio/ADBBDD19_20/blob/master/PROYECTO-FINAL/TrabajoFinal.mwb)
